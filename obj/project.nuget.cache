@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "DBF+lFxoygUBwLnqHnskmn8EqlvRMoHpQKXXKdjf/F89Ztmvve5Dv1Fk2lc4NGHFPILIJ73u1MNWMrFzbwu7Rg==",
+  "success": true,
+  "projectFilePath": "D:\\工作区\\study\\TusDemo\\TusDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29828.LAPTOP-NCHPB28F\\.nuget\\packages\\tusdotnet\\2.7.0\\tusdotnet.2.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.ganweisoft.net'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

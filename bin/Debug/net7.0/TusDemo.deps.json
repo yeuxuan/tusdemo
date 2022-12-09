@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TusDemo/1.0.0": {
+        "dependencies": {
+          "tusdotnet": "2.7.0"
+        },
+        "runtime": {
+          "TusDemo.dll": {}
+        }
+      },
+      "tusdotnet/2.7.0": {
+        "runtime": {
+          "lib/net6.0/tusdotnet.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TusDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "tusdotnet/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QgjG5sAjdS1MiYg8ifuVJaK3sXPdWcwar+hkMRm2Y4Xp6BojuSD53VqnBk1e1AJ72qIcDZi6XnMMIz3wnK5x+A==",
+      "path": "tusdotnet/2.7.0",
+      "hashPath": "tusdotnet.2.7.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "tusdotnet/2.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/tusdotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/tusdotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "tusdotnet/2.7.0": {
+      "sha512": "QgjG5sAjdS1MiYg8ifuVJaK3sXPdWcwar+hkMRm2Y4Xp6BojuSD53VqnBk1e1AJ72qIcDZi6XnMMIz3wnK5x+A==",
+      "type": "package",
+      "path": "tusdotnet/2.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/tusdotnet.dll",
+        "lib/net452/tusdotnet.xml",
+        "lib/net6.0/tusdotnet.dll",
+        "lib/net6.0/tusdotnet.xml",
+        "lib/netcoreapp3.1/tusdotnet.dll",
+        "lib/netcoreapp3.1/tusdotnet.xml",
+        "lib/netstandard1.3/tusdotnet.dll",
+        "lib/netstandard1.3/tusdotnet.xml",
+        "lib/netstandard2.0/tusdotnet.dll",
+        "lib/netstandard2.0/tusdotnet.xml",
+        "tusdotnet.2.7.0.nupkg.sha512",
+        "tusdotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "tusdotnet >= 2.7.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\29828.LAPTOP-NCHPB28F\\.nuget\\packages\\": {},
+    "D:\\VS共享\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\工作区\\study\\TusDemo\\TusDemo.csproj",
+      "projectName": "TusDemo",
+      "projectPath": "D:\\工作区\\study\\TusDemo\\TusDemo.csproj",
+      "packagesPath": "C:\\Users\\29828.LAPTOP-NCHPB28F\\.nuget\\packages\\",
+      "outputPath": "D:\\工作区\\study\\TusDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VS共享\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\29828.LAPTOP-NCHPB28F\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.ganweisoft.net": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "tusdotnet": {
+            "target": "Package",
+            "version": "[2.7.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.ganweisoft.net'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

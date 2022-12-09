@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "tus-js-client@latest",
+      "destination": "wwwroot/lib/tus-js-client/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "bootstrap@5.2.3",
+      "destination": "wwwroot/lib/bootstrap/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "layui@2.7.6",
+      "destination": "wwwroot/lib/layui/"
+    }
+  ]
+}
